@@ -8,8 +8,8 @@ import kotlin.test.assertNotSame
 
 class PrototypeTest {
 
-    lateinit var obj1: StrawberryCake
-    lateinit var obj2: StrawberryCake
+    private lateinit var obj1: StrawberryCake
+    private lateinit var obj2: StrawberryCake
 
     @BeforeTest()
     fun setUp() {

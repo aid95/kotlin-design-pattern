@@ -13,7 +13,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.6.0")
+    testImplementation("io.mockk:mockk:1.12.1")
 }
 
 tasks.test {
