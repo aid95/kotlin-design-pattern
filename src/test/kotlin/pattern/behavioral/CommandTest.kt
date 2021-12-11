@@ -14,9 +14,9 @@ class CommandTest {
     fun testFiveStarChef() {
         val chef = Chef("Byeongju, Shin", 19)
 
-        val koreanFood = chef.cookKoreanFood()
-        val chineseFood = chef.cookChineseFood()
-        val japaneseFood = chef.cookJapaneseFood()
+        chef.cookKoreanFood()
+        chef.cookChineseFood()
+        chef.cookJapaneseFood()
 
         assertEquals(1, chef.expKoreanFood)
         assertEquals(1, chef.expChineseFood)
